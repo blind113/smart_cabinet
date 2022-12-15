@@ -1,5 +1,9 @@
+<script setup >
+    import CabinetComponent from '../components/CabinetComponent.vue';
+    const pots=[{user_id:"10", description:"Novo"}];
+</script>
+
 <template>
-    <div class="home">
-        <h1>Home</h1> 
-    </div>
+    <CabinetComponent :pots="pots"></CabinetComponent> 
 </template>
+
