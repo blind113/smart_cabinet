@@ -1,13 +1,13 @@
 import Pot from "./Pot";
 export default class Cabinet {
 
-    pots ;
+    pots : Pot[];
 
     constructor (){
         this.pots = [];
     }
 
-    addPot(pot){
+    addPot(pot: Pot){
         this.pots.push(pot);
     }
 

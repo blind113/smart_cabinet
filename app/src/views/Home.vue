@@ -1,6 +1,8 @@
-<script setup >
+<script setup lang="ts" >
     import CabinetComponent from '../components/CabinetComponent.vue';
-    const pots=[{user_id:"10", description:"Novo"}];
+
+    const pots: pots[];
+    
 </script>
 
 <template>
